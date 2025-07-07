@@ -17,7 +17,7 @@ load_dotenv(override=True)
 
 def main():
     MONGODB_CONNECTION_STRING = os.environ.get("ATLAS_CONNECTION_STRING")
-    print("MONGODB_CONNECTION_STRING is ",MONGODB_CONNECTION_STRING)
+    
     if not os.environ.get("OPENAI_API_KEY"):
         os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter API key for OpenAI: ")
     else:
