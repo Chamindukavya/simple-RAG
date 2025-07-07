@@ -1,0 +1,7 @@
+langchain-text-splitters
+langchain-community
+langgraph
+langchain-mongodb
+langchain-openai
+pymongo 
+beautifulsoup4

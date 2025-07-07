@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# MacOS
+.DS_Store
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Pycharm
+.idea/
+
+# Output or build artifacts
+build/
+dist/
+*.egg-info/
+
+# LangChain / LangGraph related
+langchain.sqlite
+langchain.db
+
+# System-specific
+Thumbs.db
